@@ -7,6 +7,8 @@ It is set up with two targets, one for iOS and one for Mac OS X, you should be a
 
 It also includes a SKScene subclass called SKMScene which helps in handling screen touches or screen clicks. There is an example of it's usage included.
 
+You can also find the Objective-C version of this template here: https://github.com/northy179/SpriteKit-cross-platform-iOS-Mac-Template
+
 ## Credits
 
 This sample project has been provided by Neil North of northysoftware.com and you can also follow me on Twitter: @northy179. I am also part of the raywenderlich.com tutorial team.

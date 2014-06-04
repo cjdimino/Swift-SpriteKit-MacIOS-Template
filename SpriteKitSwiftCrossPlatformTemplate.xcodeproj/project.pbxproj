@@ -14,6 +14,13 @@
 		413E5139193F15450083E9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413E5137193F15450083E9EC /* Main.storyboard */; };
 		413E513B193F15450083E9EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413E513A193F15450083E9EC /* Images.xcassets */; };
 		413E5147193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E5146193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplateTests.swift */; };
+		413E5159193F15CB0083E9EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E5158193F15CB0083E9EC /* main.swift */; };
+		413E515B193F15CB0083E9EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E515A193F15CB0083E9EC /* AppDelegate.swift */; };
+		413E515D193F15CB0083E9EC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E515C193F15CB0083E9EC /* GameScene.swift */; };
+		413E515F193F15CB0083E9EC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 413E515E193F15CB0083E9EC /* GameScene.sks */; };
+		413E5161193F15CB0083E9EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413E5160193F15CB0083E9EC /* Images.xcassets */; };
+		413E5164193F15CB0083E9EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413E5162193F15CB0083E9EC /* MainMenu.xib */; };
+		413E5170193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E516F193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +30,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 413E5129193F15450083E9EC;
 			remoteInfo = SpriteKitSwiftCrossPlatformTemplate;
+		};
+		413E516A193F15CB0083E9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 413E5122193F15450083E9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413E5153193F15CB0083E9EC;
+			remoteInfo = SpriteKitSwiftCrossPlatformTemplateMac;
+		};
+		413E5177193F15CB0083E9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 413E5122193F15450083E9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413E5153193F15CB0083E9EC;
+			remoteInfo = SpriteKitSwiftCrossPlatformTemplateMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,6 +59,17 @@
 		413E5140193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitSwiftCrossPlatformTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		413E5145193F15450083E9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		413E5146193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitSwiftCrossPlatformTemplateTests.swift; sourceTree = "<group>"; };
+		413E5154193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitSwiftCrossPlatformTemplateMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413E5157193F15CB0083E9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		413E5158193F15CB0083E9EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		413E515A193F15CB0083E9EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		413E515C193F15CB0083E9EC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		413E515E193F15CB0083E9EC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		413E5160193F15CB0083E9EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		413E5163193F15CB0083E9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		413E5169193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitSwiftCrossPlatformTemplateMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		413E516E193F15CB0083E9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		413E516F193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitSwiftCrossPlatformTemplateMacTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +87,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		413E5151193F15CB0083E9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413E5166193F15CB0083E9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		413E5121193F15450083E9EC = {
 			isa = PBXGroup;
 			children = (
-				413E512C193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplate */,
+				413E512C193F15450083E9EC /* iOS Contol */,
 				413E5143193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplateTests */,
+				413E5155193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMac */,
+				413E516C193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests */,
 				413E512B193F15450083E9EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,11 +120,13 @@
 			children = (
 				413E512A193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplate.app */,
 				413E5140193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplateTests.xctest */,
+				413E5154193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMac.app */,
+				413E5169193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		413E512C193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplate */ = {
+		413E512C193F15450083E9EC /* iOS Contol */ = {
 			isa = PBXGroup;
 			children = (
 				413E512F193F15450083E9EC /* AppDelegate.swift */,
@@ -87,6 +137,7 @@
 				413E513A193F15450083E9EC /* Images.xcassets */,
 				413E512D193F15450083E9EC /* Supporting Files */,
 			);
+			name = "iOS Contol";
 			path = SpriteKitSwiftCrossPlatformTemplate;
 			sourceTree = "<group>";
 		};
@@ -111,6 +162,45 @@
 			isa = PBXGroup;
 			children = (
 				413E5145193F15450083E9EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		413E5155193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMac */ = {
+			isa = PBXGroup;
+			children = (
+				413E515A193F15CB0083E9EC /* AppDelegate.swift */,
+				413E515C193F15CB0083E9EC /* GameScene.swift */,
+				413E515E193F15CB0083E9EC /* GameScene.sks */,
+				413E5160193F15CB0083E9EC /* Images.xcassets */,
+				413E5162193F15CB0083E9EC /* MainMenu.xib */,
+				413E5156193F15CB0083E9EC /* Supporting Files */,
+			);
+			path = SpriteKitSwiftCrossPlatformTemplateMac;
+			sourceTree = "<group>";
+		};
+		413E5156193F15CB0083E9EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				413E5157193F15CB0083E9EC /* Info.plist */,
+				413E5158193F15CB0083E9EC /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		413E516C193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				413E516F193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests.swift */,
+				413E516D193F15CB0083E9EC /* Supporting Files */,
+			);
+			path = SpriteKitSwiftCrossPlatformTemplateMacTests;
+			sourceTree = "<group>";
+		};
+		413E516D193F15CB0083E9EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				413E516E193F15CB0083E9EC /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,6 +243,42 @@
 			productReference = 413E5140193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		413E5153193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413E5171193F15CB0083E9EC /* Build configuration list for PBXNativeTarget "SpriteKitSwiftCrossPlatformTemplateMac" */;
+			buildPhases = (
+				413E5150193F15CB0083E9EC /* Sources */,
+				413E5151193F15CB0083E9EC /* Frameworks */,
+				413E5152193F15CB0083E9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKitSwiftCrossPlatformTemplateMac;
+			productName = SpriteKitSwiftCrossPlatformTemplateMac;
+			productReference = 413E5154193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		413E5168193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413E5174193F15CB0083E9EC /* Build configuration list for PBXNativeTarget "SpriteKitSwiftCrossPlatformTemplateMacTests" */;
+			buildPhases = (
+				413E5165193F15CB0083E9EC /* Sources */,
+				413E5166193F15CB0083E9EC /* Frameworks */,
+				413E5167193F15CB0083E9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				413E516B193F15CB0083E9EC /* PBXTargetDependency */,
+				413E5178193F15CB0083E9EC /* PBXTargetDependency */,
+			);
+			name = SpriteKitSwiftCrossPlatformTemplateMacTests;
+			productName = SpriteKitSwiftCrossPlatformTemplateMacTests;
+			productReference = 413E5169193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +294,13 @@
 					413E513F193F15450083E9EC = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 413E5129193F15450083E9EC;
+					};
+					413E5153193F15CB0083E9EC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					413E5168193F15CB0083E9EC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 413E5153193F15CB0083E9EC;
 					};
 				};
 			};
@@ -186,6 +319,8 @@
 			targets = (
 				413E5129193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplate */,
 				413E513F193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplateTests */,
+				413E5153193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMac */,
+				413E5168193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +337,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		413E513E193F15450083E9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413E5152193F15CB0083E9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413E515F193F15CB0083E9EC /* GameScene.sks in Resources */,
+				413E5161193F15CB0083E9EC /* Images.xcassets in Resources */,
+				413E5164193F15CB0083E9EC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413E5167193F15CB0083E9EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,6 +381,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		413E5150193F15CB0083E9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413E515D193F15CB0083E9EC /* GameScene.swift in Sources */,
+				413E515B193F15CB0083E9EC /* AppDelegate.swift in Sources */,
+				413E5159193F15CB0083E9EC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413E5165193F15CB0083E9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413E5170193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +406,16 @@
 			isa = PBXTargetDependency;
 			target = 413E5129193F15450083E9EC /* SpriteKitSwiftCrossPlatformTemplate */;
 			targetProxy = 413E5141193F15450083E9EC /* PBXContainerItemProxy */;
+		};
+		413E516B193F15CB0083E9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 413E5153193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMac */;
+			targetProxy = 413E516A193F15CB0083E9EC /* PBXContainerItemProxy */;
+		};
+		413E5178193F15CB0083E9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 413E5153193F15CB0083E9EC /* SpriteKitSwiftCrossPlatformTemplateMac */;
+			targetProxy = 413E5177193F15CB0083E9EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -246,6 +426,14 @@
 				413E5138193F15450083E9EC /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		413E5162193F15CB0083E9EC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				413E5163193F15CB0083E9EC /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -388,6 +576,84 @@
 			};
 			name = Release;
 		};
+		413E5172193F15CB0083E9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpriteKitSwiftCrossPlatformTemplateMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		413E5173193F15CB0083E9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = SpriteKitSwiftCrossPlatformTemplateMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		413E5175193F15CB0083E9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpriteKitSwiftCrossPlatformTemplateMac.app/Contents/MacOS/SpriteKitSwiftCrossPlatformTemplateMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpriteKitSwiftCrossPlatformTemplateMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		413E5176193F15CB0083E9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpriteKitSwiftCrossPlatformTemplateMac.app/Contents/MacOS/SpriteKitSwiftCrossPlatformTemplateMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpriteKitSwiftCrossPlatformTemplateMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +679,22 @@
 			buildConfigurations = (
 				413E514E193F15450083E9EC /* Debug */,
 				413E514F193F15450083E9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		413E5171193F15CB0083E9EC /* Build configuration list for PBXNativeTarget "SpriteKitSwiftCrossPlatformTemplateMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413E5172193F15CB0083E9EC /* Debug */,
+				413E5173193F15CB0083E9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		413E5174193F15CB0083E9EC /* Build configuration list for PBXNativeTarget "SpriteKitSwiftCrossPlatformTemplateMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413E5175193F15CB0083E9EC /* Debug */,
+				413E5176193F15CB0083E9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
